@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="400dp"
+    android:layout_height="600dp"
+    tools:context=".MainUIElements.AddDiscussionPhotoFragment">
+
+
+    <TextView
+        android:id="@+id/add_photo_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_photo_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <Button
+        android:id="@+id/add_photo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Photo"
+        app:layout_constraintEnd_toStartOf="@+id/skip_button"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <Button
+        android:id="@+id/skip_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="84dp"
+        android:text="Skip"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="318dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

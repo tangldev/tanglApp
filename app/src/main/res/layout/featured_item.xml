@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="320dp"
+    android:padding="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/featured_card"
+        app:cardElevation="10dp"
+        android:layout_width="300dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="300dp" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:id="@+id/featured_title_bar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#FC6471"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/featured_title"
+                    style="@style/DefaultTitleFont"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:text="TextView"
+                    tools:text="Test Title" />
+                <TextView
+                    android:id="@+id/featured_subtitle"
+                    style="@style/DefaultSubtitleFont"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="24dp"
+                    android:text="TextView"
+                    tools:text="Test Title" />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/featured_image"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/featured_title_bar"
+                app:layout_constrainedHeight="true"
+                android:layout_height="250dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                tools:srcCompat="@tools:sample/avatars" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

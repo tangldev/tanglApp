@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">tanglApp</string>
+    <!--Activity Related-->
+    <string name="title_activity_scan">ScanActivity</string>
+    <string name="title_activity_scan_labal">ScanLabelActivity</string>
+    <string name="title_activity_search_services">SearchServices</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <!--misc-->
+    <string name="preshampoo_name">Pre Poo</string>
+    <string name="conditioner">Conditioner</string>
+    <string name="task_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis pulvinar sapien. Nam tincidunt pulvinar blandit. Curabitur convallis risus ultricies ex dignissim, sed bibendum felis hendrerit. Aenean vehicula, tellus ac ultricies viverra, mi est dapibus arcu, non convallis erat neque at odio. Mauris vel est at libero congue vehicula eleifend quis libero.</string>
+    <string name="title_activity_scan_results">ScanResults</string>
+
+    <!--Login Page-->
+    <string name="signup_button">Sign Up</string>
+    <string name="login_button">Login</string>
+    <string name="signup_title">Sign Up</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+
+
+    <!--Base Activity-->
+    <string name="discussion">Discussion</string>
+    <string name="services">Services</string>
+    <string name="scan">Scan</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+
+
+    <!--Discussion-->
+    <string name="discussion_title">Title</string>
+    <string name="discussion_details">Details</string>
+    <string name="add_photo_text">Would you like to add a photo</string>
+    <string name="discussion_preview_title">Preview</string>
+    <string name="done_button">Done</string>
+    <string name="change_photo_button">Edit Photo</string>
+    <string name="change_text_button">Edit Text</string>
+
+
+    <!--Home-->
+    <string name="featured_title">Featured</string>
+
+    <!--Errors and Notifications-->
+    <string name="CHECK_NETWORK">Check Network Connection</string>
+    <string name="textview">adfazdf</string>
+    <string name="no_ingredients_found">No Ingredients Found. Scan Again</string>
+    <string name="results_title">Bad Ingredients</string>
+    <string name="no_bad_ingredients_found">no bad ingredients found</string>
+    <string name="bad_ingredients_found">Bad Ingredients Found</string>
+    <string name="scan_again">Scan Again: Ingredients Not Found</string>
+    <string name="login_failed">LOGIN FAILED: Try Again</string>
+    <string name="facebook_login_error">Facebook Login Error</string>
+    <string name="not_valid_email">Not Valid Email</string>
+    <string name="password_too_short">Password Too Short</string>
+
+    <!--Settings-->
+    <string name="settings_title">Settings</string>
+    <string name="account">Account</string>
+    <string name="hair_profile">Hair Profile</string>
+    <string name="settings_natural_hair_type">Natural Hair Type</string>
+    <string name="hair_length">Hair Length</string>
+    <string name="hair_locked">Locked</string>
+    <string name="hair_chemically_treated">Chemically Treated</string>
+    <string name="hair_colored">Colored</string>
+
+
+    <!--Hair Profile-->
+    <string name="hair_profile_title">Hair Profile</string>
+
+    <!--Profile Related -->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="upload_photos">Upload Photos</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_app_id" translatable="false">735335253935685</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb735335253935685</string>
+    <string name="default_android_client_id">388841773299-ulijj4khd7plds6l09t0r87279sde4lu.apps.googleusercontent.com</string>
+    <string name="android_debug_client_id">388841773299-g5viq30amna1cukoj0os4cv33cm1ktge.apps.googleusercontent.com</string>
+    <string name="webclient_id">388841773299-u2o5ca2pjedko42hdru7fnmr460qcrf6.apps.googleusercontent.com</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="view_more">view more</string>
+    <string name="title_activity_add_discussion">AddDiscussionActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+</resources>

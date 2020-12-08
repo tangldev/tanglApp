@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/settings_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="@dimen/menu_title_margin_top"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/settings_title"
+        android:textSize="@dimen/menu_font_size" />
+
+    <TextView
+        android:id="@+id/settings_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-light"
+        android:textSize="@dimen/submenu_font_size"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="@string/account" />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="273dp"
+        android:layout_marginStart="37dp"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"/>
+    <TextView
+        android:id="@+id/settings_hair_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-light"
+        android:textSize="@dimen/submenu_font_size"
+        android:clickable="true"
+
+        android:text="@string/hair_profile" />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="273dp"
+        android:layout_marginStart="37dp"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"/>
+</LinearLayout>

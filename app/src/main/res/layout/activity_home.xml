@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainUIElements.HomeFragment" >
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/main_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:layout_marginBottom="100dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+
+        android:foregroundGravity="center"
+        android:overScrollMode="never">
+
+    </androidx.viewpager2.widget.ViewPager2>
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

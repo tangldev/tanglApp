@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainUIElements.HomeFragment" >
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.Material.Light.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        app:layout_anchor="@+id/camera_preview"
+        android:elevation="30dp"
+        app:layout_anchorGravity="center" />
+
+    <TextureView
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/snap_photo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="66dp"
+        app:layout_anchorGravity=""
+        app:srcCompat="@drawable/camera" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

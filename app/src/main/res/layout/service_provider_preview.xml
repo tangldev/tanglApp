@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/service_provider_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="330dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@color/browser_actions_bg_grey"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <TextView
+                        android:id="@+id/service_provider_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="sans-serif-light"
+                        android:textSize="@dimen/submenu_font_size"
+                        app:layout_constraintStart_toEndOf="@+id/profile_image"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:text="Name Name" />
+
+                    <RatingBar
+                        android:id="@+id/service_provider_rating"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginStart="24dp"
+                        android:numStars="5"
+                        app:layout_constraintTop_toBottomOf="@id/service_provider_name"
+                        app:layout_constraintStart_toEndOf="@+id/profile_image"
+                        app:layout_constraintVertical_bias="0.0"
+                         />
+
+                    <TextView
+                        android:id="@+id/service_provider_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="28dp"
+
+                        android:fontFamily="sans-serif-light"
+                        android:textSize="10sp"
+                        app:layout_constraintStart_toEndOf="@+id/profile_image"
+                        app:layout_constraintTop_toBottomOf="@id/service_provider_rating"
+                        tools:text="Location, Location" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                tools:srcCompat="@tools:sample/avatars" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
